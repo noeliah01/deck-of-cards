@@ -1,0 +1,33 @@
+
+var string = "hello"
+var newString = []
+
+var reverseString = (value) => {
+    string.forEach(value)
+}
+
+console.log(newString)
+
+
+//reverseString(string)
+//console.log(string)
+
+
+
+
+
+
+***
+var reverseString = (str) =>{
+    var strArr = str.split("")
+    var newStr = ""
+
+    strArr.forEach(letter) => {
+        newStr = letter + newStr
+    })
+    return newStr
+}
+
+var result = reverseString("cat")
+console.log(result)
+***
